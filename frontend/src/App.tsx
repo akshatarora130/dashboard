@@ -1,17 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Navbar from './Components/Navbar'
 
 function App() {
-  const [pending, setPending] = useState([]);
-  const [completed, setCompleted] = useState([]);
-  const [inProgress, setInProgress] = useState([]);
+  // const [pending, setPending] = useState([]);
+  // const [completed, setCompleted] = useState([]);
+  // const [inProgress, setInProgress] = useState([]);
   return (
     <>
       <div>
-        // Navbar
-        <div className='bg-red-900 w-full h-full'>
-          Hi
-        </div>
+       <Navbar/>
       </div>
     </>
   )
